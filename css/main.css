@@ -1,0 +1,76 @@
+body{
+	background-color: #ffffff;
+}
+
+.conteudo{
+	background-color: #ffffff;
+	margin: auto;
+}
+
+h1 {
+	color: #989898;
+	text-align: center;
+	font-weight:bold;
+	margin-top:15px;
+	margin-bottom: 30px;
+}
+
+.box {
+	margin: 0 auto;
+	width: 320px;
+}
+
+.divSendImage {
+    margin-left: -10px;
+}
+
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.docImgSend{
+    width: 420px;
+    height: 150px; 
+    float: left;  
+    margin-bottom: 20px;
+}
+
+.btnsSendImage{
+    background-color:#0887bf; 
+    border:hidden;  
+    color:#fff; 
+    font-size:11px;  
+    font-family: 'FuturaLTBT'; 
+    padding:5px 5px 5px 5px; 
+    cursor:pointer; 
+    -webkit-transition-duration: 1s; 
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    width: 35px;
+    height: 23.5px;
+    border-radius: 0;
+}
+
+.buttonsActionImg {
+	width: 70px;
+	height: 25px;
+	margin-left: -10px;
+}
+.btSendUploadImg{
+    float:right;
+}

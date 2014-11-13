@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Conversão de Imagem para Base/64</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="conteudo">
+            <header>
+                <h1>Conversão de uma imagem em Base/64</h1>
+            </header>
+
+            <div class="thumbnail box">
+                <img id="docImgSend" data-src="holder.js/320x320" alt="...">
+                <div class="caption">
+
+                    <div class="buttonsActionImg">
+                        <button type="button" id="btSendUploadImg" class="btn btn-default btnsSendImage btSendUploadImg"><span class="glyphicon glyphicon-ok"></span></button>
+                        <button type="button" id="btCancelUploadImg" class="btn btn-default btnsSendImage"><span class="glyphicon glyphicon-remove"></span></button>
+                    </div>
+
+                    <h3>Selecione uma imagem</h3>
+                    <p>...</p>
+                    <div id="divSendImage" class="divSendImage">
+                        <div  id="btSendImage" class="fileUpload btn btn-default btnsSendImage">
+                            <span class="glyphicon glyphicon-camera"></span>
+                            <input type="file" class="upload" id="inputSendImage" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/holder.js" > </script>
+    <script type="text/javascript" src="js/main.js" > </script>
+    </body>
+</html>
