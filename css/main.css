@@ -24,7 +24,7 @@ h1 {
     margin-left: -10px;
 }
 
-
+/* esconde o campo de input do upload para ser visível somente o botão */
 .fileUpload {
     position: relative;
     overflow: hidden;
