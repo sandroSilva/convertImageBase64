@@ -6,11 +6,11 @@ Conversão de Arquivo de imagem em base/64
 para a conversão de imagens de qualquer tipo para arquivos de base 64 eu usei algumas bibliotecas em CDN:
 
 jQuery
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
 
 Bootstrap
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"
+https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css
 
 E um plugin para gerar uma imagem de holder chamado Holder.js.
 http://imsky.github.io/holder/
