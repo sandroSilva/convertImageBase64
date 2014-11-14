@@ -5,10 +5,10 @@ Conversão de Arquivo de imagem em base/64
 
 para a conversão de imagens de qualquer tipo para arquivos de base 64 eu usei algumas bibliotecas em CDN:
 
-jQuery
+jQuery<br>
 https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js<br>
 
-Bootstrap
+Bootstrap<br>
 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js<br>
 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css<br>
 
